@@ -1,0 +1,8 @@
+goos: linux
+goarch: amd64
+pkg: github.com/yvz5/clayHtml/cmd/benchmarks
+cpu: AMD Ryzen 7 5700X 8-Core Processor
+BenchmarkFindStructurals-16                 1738            678154 ns/op         583.81 MB/s      794628 B/op          1 allocs/op
+BenchmarkFindStructuralsSIMD-16             2671            420688 ns/op         941.10 MB/s     1155091 B/op          3 allocs/op
+PASS
+ok      github.com/yvz5/clayHtml/cmd/benchmarks 2.461s
