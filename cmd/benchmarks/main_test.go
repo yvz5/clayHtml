@@ -10,7 +10,7 @@ import (
 
 const tokenCount = 41381
 
-func Test_FindStructurals(t *testing.T) {
+func TestFindStructuralsCompareWithSIMD(t *testing.T) {
 	content, err := os.ReadFile("testdata/large.html")
 	if err != nil {
 		t.Fatalf("failed to read %s: %v", "testdata/large.html", err)
